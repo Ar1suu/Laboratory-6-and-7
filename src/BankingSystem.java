@@ -9,7 +9,7 @@ public class BankingSystem {
         BankingService withdraw = new WithdrawalService();
         BankingService interest = new InterestService();
 
-        // Demonstrating Runtime Polymorphism
+
         System.out.println("\n=== METHOD OVERRIDING ===");
 
         savings.displaySummary();
